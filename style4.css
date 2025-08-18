@@ -1,0 +1,185 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  :root {
+    --bg-color: #0c0c0c;
+    --text-color: #fff;
+    --main-color: #ae8957;
+    --big-font: 3rem;
+    --p-font: 1rem;
+  }
+  
+  body {
+    background: var(--bg-color) url('bg.png') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: var(--text-color);
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 35px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    transition: all 0.5s ease;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navlist {
+    display: flex;
+  }
+  
+  .navlist a {
+    margin: 0 20px;
+    color: var(--text-color);
+    font-size: var(--p-font);
+    transition: all 0.4s ease;
+  }
+  
+  .navlist a:hover {
+    color: var(--main-color);
+  }
+  
+  .right-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    display: inline-block;
+    padding: 9px 24px;
+    background: transparent;
+    border: 2px solid var(--text-color);
+    border-radius: 7px;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+  }
+  
+  .nav-btn:hover {
+    transform: translateY(-5px);
+    border-color: var(--main-color);
+  }
+  
+  #menu-icon {
+    font-size: 32px;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+  }
+  
+  /* Contact Form Centering */
+  .sing-in {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 14% 50px;
+  }
+  
+  /* Form Card */
+  .form-card {
+    background: #1a1a1a;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-card h2 {
+    color: var(--main-color);
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label {
+    width: 100%;
+    text-align: left;
+    color: var(--text-color);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #333;
+    color: var(--text-color);
+  }
+  
+  .sign-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .sign-btn:hover {
+    background: #caa36a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    header {
+      padding: 20px 5%;
+    }
+  
+    #menu-icon {
+      display: block;
+    }
+  
+    .navlist {
+      display: none;
+      flex-direction: column;
+      background: #1a1a1a;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 250px;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .navlist a {
+      margin: 10px 0;
+      display: block;
+    }
+  }
+  

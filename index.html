@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>projact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <nav class="navlist">
+      <a href="index.html">Home</a>
+      <a href="about (1).html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="right-content">
+      <a href="#" class="nav-btn">Sign In</a>
+      <div id="menu-icon" class="fas fa-bars"></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h5>Welcome to</h5>
+      <h1>tast</h1>
+      <p>Boots your prodyctivity and bulid your mood with a cup of coffee in the morning . Coffee has a stimulsting effect.</p>
+      <div class="main-hero">
+        <a href="sing in .html" class="btn" id="order-btn">Order Now</a>
+        <div class="price">
+          $75 <span>| Reglar Size</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="hero.png" alt="Hero" />
+    </div>
+  </section>
+
+  <div class="icon">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fa-brands fa-tiktok"></i>
+  </div>
+
+  <div class="scroll">
+    <a href="#"><i class="fas fa-arrow-down"></i> Scroll Down</a>
+  </div>
+
+  <script>
+    // Initialize ScrollReveal
+    const sr = ScrollReveal({
+      duration: 1200,
+      distance: '40px',
+      easing: 'ease-out',
+      reset: false // if you want the animation to repeat on scroll up/down.
+    });
+
+    // Reveal elements
+    sr.reveal('.hero-text', { origin: 'top' });
+    sr.reveal('.hero-img', { origin: 'right' });
+    sr.reveal('.icon', { delay: 200, origin: 'bottom' });
+    sr.reveal('.scroll', { delay: 400, origin: 'bottom' });
+  </script>
+
+  <script>
+    document.getElementById('order-btn').addEventListener('click', function() {
+      alert('Thank you for your order!');
+    });
+  </script>
+</body>
+</html>
