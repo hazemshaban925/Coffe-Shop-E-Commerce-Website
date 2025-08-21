@@ -1,12 +1,12 @@
-Coffee Shop - Web Application
+### Coffee Shop - Web Application
 
-📋 Project Overview
+### 📋 Project Overview
 
 Coffee Shop is a modern, responsive web application for a coffee shop, featuring a beautiful UI and complete e-commerce functionality. This project demonstrates modern web development practices with a focus on user experience and responsive design.
 
-✨ Key Features
+### ✨ Key Features
 
-🎨 Design & UI
+### 🎨 Design & UI
 
 •
 Responsive Design: Perfectly works on all devices (phones, tablets, desktops)
@@ -20,7 +20,7 @@ Smooth Animations: Elegant transitions and visual effects (e.g., ScrollReveal)
 •
 Mobile-First: Optimized mobile experience
 
-🛍️ E-Commerce Features (Simulated)
+### 🛍️ E-Commerce Features (Simulated)
 
 •
 Product Catalog: Browse coffee, and other items
@@ -31,7 +31,7 @@ Shopping Cart: (Simulated) Add/remove products with quantity management
 •
 Product Details: Detailed product information pages
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 
 Frontend
 
@@ -50,7 +50,7 @@ Font Awesome: Icons
 •
 ScrollReveal: For animations
 
-📁 Project Structure
+### 📁 Project Structure
 
 Plain Text
 
@@ -80,7 +80,7 @@ CoffeShopProject/
 └── CoffeShopProject.zip
 
 
-🚀 How to Run the Project
+### 🚀 How to Run the Project
 
 To get a local copy up and running, follow these simple steps:
 
@@ -93,7 +93,7 @@ Navigate to the project directory:
 3.
 Open index.html in your preferred web browser.
 
-🛒 How to Use the Application
+### 🛒 How to Use the Application
 
 •
 Browse Products: Go to the menu page to see all available coffee and other items.
@@ -104,7 +104,7 @@ Navigate: Use the navigation bar to access Home, About, Menu, Contact, and Sign 
 •
 Order Now (Simulated): Click the "Order Now" button on the home or menu page to see a simulated order confirmation.
 
-🎨 Design Features
+### 🎨 Design Features
 
 Color Scheme
 
@@ -139,9 +139,9 @@ Loading Animations: (Simulated) Loading animations.
 •
 Card Design: Elegant card design for products.
 
-📱 Device Compatibility
+### 📱 Device Compatibility
 
-Supported Browsers
+### Supported Browsers
 
 •
 ✅ Chrome (Version 60+)
@@ -155,7 +155,7 @@ Supported Browsers
 •
 ✅ Edge (Version 79+)
 
-Supported Devices
+### Supported Devices
 
 •
 ✅ Desktop computers
@@ -169,7 +169,7 @@ Supported Devices
 •
 ✅ Smartphones (iPhone, Android Phones)
 
-🚀 Deployment Ready
+### 🚀 Deployment Ready
 
 The project is ready for deployment on any static hosting platform:
 
@@ -185,7 +185,7 @@ Vercel
 •
 Any Static Hosting Platform: Can upload files directly as no backend server is required.
 
-🔧 Issues Fixed
+### 🔧 Issues Fixed
 
 •
 Path Issues (Resolved):
@@ -221,7 +221,7 @@ Sign In Page: Fixed redirect paths.
 
 
 
-📞 Support & Help
+### 📞 Support & Help
 
 Troubleshooting
 
@@ -245,7 +245,7 @@ Check this README file.
 •
 Contact the development team.
 
-📝 Important Notes
+### 📝 Important Notes
 
 About the Application
 
